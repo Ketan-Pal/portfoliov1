@@ -49,8 +49,8 @@ export const skillData = [
   },
   {
     id: 4,
-    skill: <Icon icon="ri:bootstrap-fill" className="display-4" />,
-    name: "BootStrap",
+    skill: <Icon icon="logos:java" className="display-4" />,
+    name: "Java",
   },
   {
     id: 5,
@@ -59,8 +59,8 @@ export const skillData = [
   },
   {
     id: 6,
-    skill: <Icon icon="file-icons:styledcomponents" className="display-4" />,
-    name: "Styled Components",
+    skill: <Icon icon="devicon:spring-wordmark" className="display-4" />,
+    name: "Spring Web",
   },
   {
     id: 7,
@@ -86,7 +86,7 @@ export const resume = "https://drive.google.com/file/d/1-2bZGirqSPCiwqcpWKy6nue3
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["example-1", "example-2", "example-3"];
+export const filteredProjects = ["QR-Generator", "wc-command-line-tool", "portfoliov1"];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 4-5)
 export const projectCardImages = [
@@ -101,4 +101,4 @@ export const projectCardImages = [
   Add your formspree endpoint below.
   https://formspree.io/
 */
-export const formspreeUrl = "https://formspree.io/f/YourEndpoint";
+export const formspreeUrl = "https://formspree.io/f/xyyqzdqv";
