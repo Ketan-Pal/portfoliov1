@@ -17,6 +17,8 @@ export { HeroDark as Dark };
 */
 export const githubUsername = "Ketan-Pal";
 
+export const linkedin = "https://www.linkedin.com/in/ketanpal/";
+
 // Blog link icon - https://icon-sets.iconify.design/
 export const Blog = <Icon icon="ph:link-bold" />;
 
@@ -25,7 +27,7 @@ export const Blog = <Icon icon="ph:link-bold" />;
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, React Bootstrap, Redux, and the GitHub REST API.";
+  "Highly motivated and skilled Computer Science Engineering graduate with expertise in full-stack Java application development. Asolid foundation in programming, data structures, and algorithms. Eager to leverage theoretical knowledge and practical experience to contribute to innovative software solutions while continuously enhancing technical skills";
 
 /* Skills
  ************************************************************** 
@@ -34,17 +36,17 @@ export const moreInfo =
 export const skillData = [
   {
     id: 1,
-    skill: <Icon icon="mdi:language-html5" className="display-4" />,
+    skill: <Icon icon="logos:html-5" className="display-4" />,
     name: "HTML5",
   },
   {
     id: 2,
-    skill: <Icon icon="ion:logo-css3" className="display-4" />,
+    skill: <Icon icon="ph:file-css-fill" className="display-4" />,
     name: "CSS3",
   },
   {
     id: 3,
-    skill: <Icon icon="fa6-brands:js" className="display-4" />,
+    skill: <Icon icon="vscode-icons:file-type-js-official" className="display-4" />,
     name: "JavaScript",
   },
   {
@@ -64,13 +66,13 @@ export const skillData = [
   },
   {
     id: 7,
-    skill: <Icon icon="akar-icons:redux-fill" className="display-4" />,
-    name: "Redux",
+    skill: <Icon icon="logos:hibernate" className="display-4" />,
+    name: "Hibernate",
   },
   {
     id: 8,
-    skill: <Icon icon="bi:git" className="display-4" />,
-    name: "Git",
+    skill: <Icon icon="logos:mysql" className="display-4" />,
+    name: "MySQL",
   },
   {
     id: 9,
